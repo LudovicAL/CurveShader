@@ -5,31 +5,18 @@ using UnityEngine.Rendering;
 
 public class CameraRendering : MonoBehaviour {
 
-	private void OnEnable() {
-		RenderPipelineManager.beginCameraRendering += OnBeginCameraRendering;
-		RenderPipelineManager.endCameraRendering += OnEndCameraRendering;
-	}
-
-	private void OnDisable() {
-		RenderPipelineManager.beginCameraRendering -= OnBeginCameraRendering;
-		RenderPipelineManager.endCameraRendering -= OnEndCameraRendering;
-	}
-
 	// Start is called before the first frame update
 	void Start() {
-        
-    }
+		object[] obj = FindObjectsOfType(typeof(MeshRenderer));
+		foreach (object o in obj) {
+			MeshRenderer meshRenderer = (MeshRenderer)o;
+			if (meshRenderer) {
+				meshRenderer.bounds = new Bounds(meshRenderer.transform.position, new Vector3(999f, 999f, 999f));
+			}
+		}
+	}
 
     // Update is called once per frame
     void Update() {
-        
     }
-
-	private void OnBeginCameraRendering(ScriptableRenderContext context, Camera camera) {
-		camera.cullingMatrix = Matrix4x4.Ortho(-99, 99, -99, 99, 0.001f, 99) * camera.worldToCameraMatrix;
-	}	
-
-	private void OnEndCameraRendering(ScriptableRenderContext context, Camera camera) {
-		camera.ResetCullingMatrix();
-	}
 }

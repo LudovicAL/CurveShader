@@ -101,5 +101,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _curvature: {r: 0, g: 0, b: 0, a: 0}
-    - _referencePosition: {r: -2.6000001, g: 0, b: 0.00000023841858, a: 0}
+    - _referencePosition: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
