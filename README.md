@@ -5,6 +5,6 @@ An online version of the game can be accessed at https://ludovical.github.io/Cur
 (note that the page could take a few minutes to load the WebGL player in the background).
 
 ## Preview
-![Demo1 gif](https://github.com/LudovicAL/CurveShader/blob/master/Demo1.gif?raw=true)
+![Demo1 gif](https://github.com/LudovicAL/CurveShader/blob/main/Demo1.gif?raw=true)
 
-![Demo2 gif](https://github.com/LudovicAL/CurveShader/blob/master/Demo2.gif?raw=true)
+![Demo2 gif](https://github.com/LudovicAL/CurveShader/blob/main/Demo2.gif?raw=true)
