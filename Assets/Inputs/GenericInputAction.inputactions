@@ -327,7 +327,7 @@
                 {
                     "name": "",
                     "id": "6f1d608c-6dd0-47ab-b07a-b8f1d5a4af70",
-                    "path": "<Mouse>/scroll",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
