@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Orange
-  m_Shader: {fileID: -6465566751694194690, guid: af01762f5ebe35d4c8627e576f8bf8a2, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: c1211916da0e10d4da59d9753e1c3bb1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -106,7 +106,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - _angle: 0
-    - _curvature: 0
+    - _curvature: 4.3545094
     - _distance: 10
     - _radius: 5
     m_Colors:
@@ -117,6 +117,6 @@ Material:
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _curvature: {r: 0, g: 0, b: 0, a: 0}
+    - _curvature: {r: 0.050717223, g: 0.065573774, b: 0, a: 0}
     - _referencePosition: {r: 0, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
