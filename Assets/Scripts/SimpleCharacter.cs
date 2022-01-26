@@ -16,7 +16,6 @@ public class SimpleCharacter : MonoBehaviour {
 	private float cameraSensitivity = 2f;
 	[SerializeField]
 	private float cameraMaxLookAngle = 50f;
-	private Vector2 cameraDirection;
 	private float cameraYaw = 0.0f;
 	private float cameraPitch = 0.0f;
 	private Camera playerCamera;
@@ -32,8 +31,8 @@ public class SimpleCharacter : MonoBehaviour {
 	void Update() {
 		//Camera
 		if (!Mouse.current.rightButton.isPressed) {
-			cameraYaw = transform.localEulerAngles.y + cameraDirection.x * cameraSensitivity;
-			cameraPitch -= cameraSensitivity * cameraDirection.y;
+			cameraYaw = transform.localEulerAngles.y + Mouse.current.delta.ReadValue().x * cameraSensitivity;
+			cameraPitch -= cameraSensitivity * Mouse.current.delta.ReadValue().y;
 			cameraPitch = Mathf.Clamp(cameraPitch, -cameraMaxLookAngle, cameraMaxLookAngle);
 			transform.localEulerAngles = new Vector3(0, cameraYaw, 0);
 			playerCamera.transform.localEulerAngles = new Vector3(cameraPitch, 0, 0);
@@ -47,9 +46,5 @@ public class SimpleCharacter : MonoBehaviour {
 
 	public void OnMove(InputAction.CallbackContext context) {
 		characterDirection = context.ReadValue<Vector2>();
-	}
-
-	public void OnCameraMove(InputAction.CallbackContext context) {
-		cameraDirection = context.ReadValue<Vector2>();
 	}
 }
