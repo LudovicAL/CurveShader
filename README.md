@@ -1,4 +1,4 @@
-# CurveShader
+# DisplacementShader
 This minigame was made as an attempt to explore Unity's Shader Graph capabilities.
 
 An online version of the game can be accessed at https://ludovical.github.io/DisplacementShader/
