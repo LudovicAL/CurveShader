@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Blue
-  m_Shader: {fileID: -6465566751694194690, guid: 69861f778da9de345b7bb2819b90c9d1, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 55b5140db5e23ad4383137a086fd1906, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -95,10 +95,10 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _angle: 35.36
-    - _curvature: 0
+    - _angle: 0
+    - _curvature: -0.18507838
     - _distance: 10
-    - _radius: 10
+    - _radius: 5
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

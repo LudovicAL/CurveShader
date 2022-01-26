@@ -10772,15 +10772,15 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 3f7c22298b3d5644c90289c072a89e87, type: 2}
   - {fileID: 2100000, guid: 78ab00b389a529b418158a9e257f2c6a, type: 2}
   - {fileID: 2100000, guid: ac868dbe938f0334ea8222477630bf27, type: 2}
-  curveMode: 1
+  curveMode: 2
   exponentCurvature: {x: 0, y: 0}
   exponentCurvatureShader: {fileID: -6465566751694194690, guid: f52eee5efda5a6d47a966d34d389c945, type: 3}
   rotationCurvature: 0
   rotationAxis: 0
   rotationCurvatureShader: {fileID: -6465566751694194690, guid: 69861f778da9de345b7bb2819b90c9d1, type: 3}
   inceptionDistance: 10
-  inceptionAngle: 35.36
-  inceptionRadius: 10
+  inceptionAngle: 0
+  inceptionRadius: 5
   inceptionCurvatureShader: {fileID: -6465566751694194690, guid: 55b5140db5e23ad4383137a086fd1906, type: 3}
 --- !u!4 &1781221357
 Transform:
