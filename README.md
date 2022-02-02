@@ -8,3 +8,5 @@ An online version of the game can be accessed at https://ludovical.github.io/Dis
 ![Demo1 gif](https://github.com/LudovicAL/CurveShader/blob/main/Demo1.gif?raw=true)
 
 ![Demo2 gif](https://github.com/LudovicAL/CurveShader/blob/main/Demo2.gif?raw=true)
+
+![Demo2 gif](https://github.com/LudovicAL/CurveShader/blob/main/Demo3.gif?raw=true)
